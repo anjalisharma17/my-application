@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717986045247",
+    "project_id": "what-you-want-4cea5",
+    "storage_bucket": "what-you-want-4cea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717986045247:android:2ae6b0fc97e6ee270b078a",
+        "android_client_info": {
+          "package_name": "com.example.wyw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717986045247-f840kbsqbu2ueuj0p6e9sa8dhefr5dlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG1flK8qZKRnHI1oAYkx-NEC9czJQGI9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717986045247-f840kbsqbu2ueuj0p6e9sa8dhefr5dlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

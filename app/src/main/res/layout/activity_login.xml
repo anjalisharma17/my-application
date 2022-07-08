@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        android:text="Login to your app"/>
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/emailView"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/passwordView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/emailView"
+        android:layout_centerInParent="true"
+        android:hint="Password"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/passwordView"
+        android:layout_centerInParent="true"
+        android:text="Login" />
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastContent"
+        android:layout_below="@id/login"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:textSize="17dp"
+            android:text="New User?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:id="@+id/signup"
+            android:textSize="17dp"
+            android:text="Signup"/>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/progress_bar"
+        android:layout_below="@id/lastContent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hire">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/teal_700"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:text="Enter Your Details"
+        android:id="@+id/header_text"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:id="@+id/address"
+        android:hint="Enter your Address"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/purpose"
+        android:inputType="text"
+        android:layout_below="@id/address"
+        android:hint="Enter your Requirements"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phone"
+        android:inputType="phone"
+        android:layout_below="@id/purpose"
+        android:hint="Enter your phone no"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="20dp"
+        android:text="Hire"
+        android:id="@+id/hire"/>
+
+</RelativeLayout>
